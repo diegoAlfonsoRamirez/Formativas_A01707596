@@ -1,17 +1,26 @@
-#suma Iterativa#
+**Análisis de complejidad temporal**
 
-Análisis de complejidad temporal
+*Selection Sort*
 
-Dado que el algoritmo es un for de n pasos, debe recorrer los n pasos en todas las ocasiones, por lo que su complejidad es O(n) para el peor de los casos.
+Dado que el algoritmo esta conpuesto por 2 for anidados, en el peor de los casos el algoritmo debera recorrerse a si mismo
+para cada elemento, por lo que su complejidad asciende a O(n^2)
 
-#suma Recursiva
+*Bubble Sort*
 
-Análisis de complejidad temporal
+De la misma manera que con el Selection Sort, dado que hay 2 for anidados, en el peor de los casos el algoritmo debera
+recorrese a si mismo por cada elemento, siendo esto un O(n^2)
 
-El algoritmo se manda a llamar así mismo n veces, por los que su complejidad es O(n^2) para el peor de los casos.
+*Merge Sort*
 
-#suma Directa
+En este caso el algoritmo se recorre a si mismo n veces, pero en cada paso se reduce su longitud a la mitad, por lo que
+también tiene un decrecimiento exponencial con lo que su complejidad temporal sería un O(n*log(n))
 
-Análisis de complejidad temporal
+*Busqueda Secuencial*
 
-El algoritmo tiene complejidad constante O(1) dado que utiliza una formula para obtener el resultado en un instante.
+En el peor de los casos, y para un arreglo previamente ordenado, el algotirmo deberá buscar a través de todos los n elementos
+por lo que su complejidad temporal asciende a O(n)
+
+*Busqueda Binaria*
+
+En el peor de los casos, para un arreglo previamente ordenado, el algoritmo divide su área de busqueda a la mitad por cada paso
+por lo que tiene un decrecimiento exponencial, con lo que su complejidad temporal es O(log(n))
