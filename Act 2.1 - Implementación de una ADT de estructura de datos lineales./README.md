@@ -17,5 +17,5 @@ En caso de introducir una posición mayor que el tamaño de la lista -1 o de ser
 *Igual que en los demás casos, la complejidad es O(n), pues en el peor de los casos el algoritmo deberá buscar el último elemento para borrarlo.
 Al igual que en los demás casos, si la posición a eliminar supera los límites de la lista, explusará un -1 en la primerra posición.*
 
-###toString
+### toString
 *Convirtiendo cada elemento de la lista en una cadena de carácteres, debe recorrer toda la lista, por lo que tiene complejidad O(n).*
