@@ -85,12 +85,17 @@ void List<T>::update(int a, T val){
 	Link<T> *p;
 	int b = 0;
 	p = head;
-	while(b != a){
-		p = p->next;
-		b++;
-		
-	};
-	p->value = val;
+	if((a < 0) || (a > (size-1))){
+		p->value = -1;
+	}else{	
+		while(b != a){
+			p = p->next;
+			b++;
+			
+		};
+		p->value = val;
+	}
+	
 }
 
 template <class T>
@@ -137,6 +142,8 @@ void List<T>::deleteAt(int a){
 		delete p;
 		size--;
 		
+	}else{
+		p->val = -1;
 	}
 	
 }
