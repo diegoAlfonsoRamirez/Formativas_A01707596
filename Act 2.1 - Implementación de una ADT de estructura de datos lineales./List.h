@@ -143,7 +143,7 @@ void List<T>::deleteAt(int a){
 		size--;
 		
 	}else{
-		p->val = -1;
+		p->value = -1;
 	}
 	
 }
