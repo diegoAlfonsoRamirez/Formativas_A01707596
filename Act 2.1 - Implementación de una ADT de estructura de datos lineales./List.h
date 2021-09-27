@@ -121,7 +121,7 @@ void List<T>::deleteAt(int a){
 	int b = 0;
 	int aux_1, aux_2 = 0;
 	p = head;
-	if((a > 0) && (a < (size-1))){
+	if((a > 0) && (a < size)){
 		aux_1 = p->value;
 		while(b != a){
 			p = p->next;
