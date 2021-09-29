@@ -10,8 +10,8 @@ lista ligada, nuevamente tendrá una complejidad O(n)*
 
 ### Update
 *En este caso el algoritmo deberá buscar un elemento en la posición x, para cambiar su valor a z, siendo que el peor de los casos deberá
-recorrer todo el arreglor, por lo que tendrá complejidad O(n).
-En caso de introducir una posición mayor que el tamaño de la lista -1 o de ser menor a 0, expulsará un -1 en la primera posición.*
+recorrer todo el arreglo, por lo que tendrá complejidad O(n).
+En caso de introducir una posición mayor que el tamaño de la lista o de ser menor a 0, expulsará un -1 en la primera posición.*
 
 ### Delete
 *Igual que en los demás casos, la complejidad es O(n), pues en el peor de los casos el algoritmo deberá buscar el último elemento para borrarlo.
