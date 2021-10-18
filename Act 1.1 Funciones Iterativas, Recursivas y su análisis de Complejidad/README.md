@@ -8,7 +8,7 @@ Dado que el algoritmo es un for de n pasos, debe recorrer los n pasos en todas l
 
 **Análisis de complejidad temporal**
 
-El algoritmo se manda a llamar así mismo n veces, por los que su complejidad es O(n^2) para el peor de los casos.
+El algoritmo se manda a llamar así mismo n veces, por los que su complejidad es O(n) para el peor de los casos.
 
 #suma Directa
 
