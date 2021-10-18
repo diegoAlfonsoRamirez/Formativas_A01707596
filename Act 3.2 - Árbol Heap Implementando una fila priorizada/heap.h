@@ -66,7 +66,8 @@ unsigned int Heap<T>::right(unsigned int pos) const{
 template <class T>
 std::string Heap<T>::toString() const{
 	std::stringstream aux;
-	aux << "[";	for (unsigned int i = 0; i < count; i++){
+	aux << "[";	
+	for (unsigned int i = 0; i < count; i++){
 		if(i != 0){
 			aux << " ";
 			
