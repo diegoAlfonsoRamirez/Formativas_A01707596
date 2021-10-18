@@ -4,7 +4,7 @@ Repositorio de ejemplo
 
 # Correcciones en actividades
  ### Act 1.1 Funciones Iterativas, Recursivas y su análisis de Complejidad/
-* Se agregó analisis de complejidad para función recursiva en suma renglon 37 de funciones.h
+* Se corrigió el análisis de complejidad de la suma recursiva de O(n^2) a O(n)
  
 * Se agregaó función iterativa que antes no pasaba una de la pruebas, ya que se iniciaba el conteo del ciclo fuera de lugar. Ahora inicia en 0 y termina en n-1 y pasa las prubas del último main en linea 50 funciones.h
  
