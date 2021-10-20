@@ -8,4 +8,4 @@ Repositorio de ejemplo
  
  ### Act 1.2 - Act 1.2 - Algoritmos de Búsqueda y Ordenamiento/
 * El programo tenía errores al encontrar la posición de un elemento en un arreglo ordenado, por lo que se corrigió el error
-* y ahora puede encontrar la posición correctamente.
+  y ahora puede encontrar la posición correctamente.
