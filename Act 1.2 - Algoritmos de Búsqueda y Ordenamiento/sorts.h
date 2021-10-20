@@ -111,7 +111,7 @@ void Sorts<T>::ordenaMerge(std::vector<T> &v) {
 template <class T>
 int Sorts<T>::busqSecuencial(std::vector<T> &v, int a){
 	int aux=0;
-	for(int i=0; i<=(v.size()-1); i++){
+	for(int i=0; i<=(v.size()); i++){
 		if(v[i]==a){
 			aux=i;
 		}else{
