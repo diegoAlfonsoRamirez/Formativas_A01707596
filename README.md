@@ -1,7 +1,5 @@
 # TC1031_Estructuras_Formativas
 
-Repositorio de ejemplo
-
 # Correcciones en actividades
  ### Act 1.1 Funciones Iterativas, Recursivas y su análisis de Complejidad/
 * Se corrigió el análisis de complejidad de la suma recursiva de O(n^2) a O(n)
