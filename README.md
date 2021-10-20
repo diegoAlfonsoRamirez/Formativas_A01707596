@@ -6,5 +6,6 @@ Repositorio de ejemplo
  ### Act 1.1 Funciones Iterativas, Recursivas y su análisis de Complejidad/
 * Se corrigió el análisis de complejidad de la suma recursiva de O(n^2) a O(n)
  
- ### Act 3.2 - Árbol Heap: Implementando una fila priorizada/
-* El programo tenía errores de compilación, se corrigió el error de compilación (caracteres no válidos y faltaban funciones por declarar) y el programa ya es compatible con el último main en el repositorio de prueba.
+ ### Act 1.2 - Act 1.2 - Algoritmos de Búsqueda y Ordenamiento/
+* El programo tenía errores al encontrar la posición de un elemento en un arreglo ordenado, por lo que se corrigió el error
+* y ahora puede encontrar la posición correctamente.
