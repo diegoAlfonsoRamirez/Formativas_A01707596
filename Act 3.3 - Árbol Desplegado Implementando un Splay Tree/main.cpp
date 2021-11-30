@@ -22,7 +22,6 @@ void Node<T>::print_tree(std::stringstream &aux) const {
 	if (right != 0)
 		aux << " right " << right->value;
 	aux << "\n";
-
 	if (left != 0) {
 		left->print_tree(aux);
 	}
@@ -30,7 +29,6 @@ void Node<T>::print_tree(std::stringstream &aux) const {
 		right->print_tree(aux);
 	}
 }
-
 template <class T>
 void Node<T>::preorder(std::stringstream &aux) const {
 	aux << value;
@@ -43,7 +41,6 @@ void Node<T>::preorder(std::stringstream &aux) const {
 		right->preorder(aux);
 	}
 }
-
 template <class T>
 void Node<T>::inorder(std::stringstream &aux) const {
 	if (left != 0) {
@@ -57,7 +54,6 @@ void Node<T>::inorder(std::stringstream &aux) const {
 		right->inorder(aux);
 	}
 }
-
 template <class T>
 void Node<T>::preorder(std::stringstream &aux) const {
 	aux << value;
@@ -70,7 +66,6 @@ void Node<T>::preorder(std::stringstream &aux) const {
 		right->preorder(aux);
 	}
 }
-
 */
 
 
