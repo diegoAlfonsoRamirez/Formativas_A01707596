@@ -9,13 +9,11 @@ template<class Key, class Value>
 class Quadratic{
 private:
     unsigned int (*func)(const Key);
-
     unsigned int size;
     unsigned int count;
     Key *keys;
     Key initialValue;
     Value *values;
-
     long indexOf(const Key) const;
 
 public:
@@ -26,6 +24,7 @@ public:
     bool contains(const Key) const;
     Value get(const Key) const;
     std::string toString() const;
+    
 };
 
 template<class Key, class Value>
