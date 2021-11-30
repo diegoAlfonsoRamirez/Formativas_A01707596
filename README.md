@@ -10,3 +10,6 @@
 
  ### Act 3.1 Operaciones avanzadas en un BST/
 * Se incluyó el análisis de complejidad temporal en el README.
+
+ ### Act 3.2 Árbol Heap implementado una lista priorizada/
+* Se corrigió el análisis de complejidad de las funciones pop() y push().
