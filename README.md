@@ -15,7 +15,7 @@
 * Se corrigió el análisis de complejidad de las funciones pop() y push().
 
  ### Act 3.3 Árbol Desplegado Implemntando un Splay Tree/
-* Se realizó la entrega y el análisis de complegidad.
+* Se realizó la entrega y el análisis de complejidad.
 
  ### Act 4.1 Grafos, sus representaciones y recorridos/
 * Se realizó la entrega y el análisis de complejidad.
